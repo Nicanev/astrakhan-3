@@ -1,0 +1,10 @@
+.footer {
+	margin-top: 8.5rem;
+	padding: 3.5rem 0;
+	border-top: 0.1rem solid rgba(255, 251, 251, 0.13);
+	&__copyright {
+		text-align: center;
+		color: #fffbfba1;
+		font-size: 1.4rem;
+	}
+}

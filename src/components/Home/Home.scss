@@ -1,0 +1,71 @@
+.home {
+	h2 {
+		font-size: 3.2rem;
+		color: #1daeff;
+		font-weight: 600;
+		margin-top: 5.2rem;
+		margin-bottom: 4.2rem;
+	}
+	&__item {
+		img {
+			width: 57.7rem;
+			height: 45rem;
+			border-radius: 0.8rem 0.8rem 0px 0px;
+		}
+		width: max-content;
+		border-radius: 0.8rem;
+		background-color: #161616;
+	}
+	&__des {
+		padding: 1.6rem;
+	}
+	&__list {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 1.6rem;
+	}
+	&__info {
+		display: flex;
+		justify-content: center;
+		border: 0.1rem solid rgba(255, 251, 251, 0.35);
+		border-radius: 0.8rem;
+		width: 54.6rem;
+		span {
+			display: flex;
+			align-items: center;
+			gap: 0.4rem;
+			font-size: 1.4rem;
+			font-weight: 600;
+			color: rgba(255, 251, 251, 0.65);
+			padding: 1.1rem 0;
+			justify-content: center;
+			width: 18.2rem;
+			border-right: 0.1rem solid rgba(255, 251, 251, 0.35);
+		}
+		svg {
+			width: 1.6rem;
+			height: 1.6rem;
+		}
+
+		span:last-child {
+			border: none;
+		}
+	}
+	&__cost {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-weight: 600;
+		margin-bottom: 1.6rem;
+		button {
+			padding: 1.2rem 2.4rem;
+			background: linear-gradient(90deg, #feac6d 0%, #ae61ed 100%);
+			box-shadow: 0px 17px 33px rgba(255, 255, 255, 0.2);
+			border-radius: 0.8rem;
+		}
+		span {
+			font-size: 2.4rem;
+		}
+	}
+}

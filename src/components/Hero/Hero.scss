@@ -1,0 +1,19 @@
+.hero {
+	position: relative;
+	height: 84.5rem;
+	&__background {
+		width: 100%;
+	}
+	h1 {
+		position: absolute;
+		top: 50%;
+		transform: translate(0, -50%);
+		font-size: 6.4rem;
+		line-height: 8.1rem;
+		width: 106rem;
+		font-weight: 600;
+		span {
+			color: #1daeff;
+		}
+	}
+}
